@@ -9,7 +9,6 @@ import {
 } from '@fluentui/react';
 import {
     CardboardClassNamePrefix,
-    StyleConstants
 } from '../../Models/Constants';
 import { CardboardGroupedListItemType } from './CardboardGroupedList.types';
 
@@ -42,7 +41,7 @@ export const getStyles = memoizeFunction(
             textOverflow: 'ellipsis'
         };
         const iconStyles = {
-            fontSize: StyleConstants.icons.size16,
+            // fontSize: StyleConstants.icons.size16,
             marginRight: 8
         };
         return mergeStyleSets({
